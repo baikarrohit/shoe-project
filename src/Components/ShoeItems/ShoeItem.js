@@ -11,6 +11,7 @@ const ShoeItem = () => {
       name: shoe.name,
       size: size,
       price: shoe.price,
+      quantity: 1
     };
 
     cartCtx.addItem(newItem); 
